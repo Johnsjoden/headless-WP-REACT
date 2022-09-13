@@ -15,7 +15,6 @@ export default function DetailPage() {
       setResult(data)
     })
   }, [])
-  console.log(data)
   return (
     <div>
       <h2>{data.slug}</h2>
