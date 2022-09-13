@@ -11,11 +11,11 @@
 # 1.5 To start the project local
     run NPM start and react will start the project.
     go to Localhost:3000
-# 1.6 deplay to Vercel
+# 1.6 Deploy to Vercel
     Open https://vercel.com and sign in with your Github account
     Add a github repository you want to deploy. 
-    Add a enviorment variable
-    The enviorment variable should be the same name as the variable in the .env file.
+    Add a environment variable
+    The environment variable should be the same name as the variable in the .env file.
 
 
 
