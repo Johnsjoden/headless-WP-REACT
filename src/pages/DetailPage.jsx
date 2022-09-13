@@ -11,7 +11,8 @@ export default function DetailPage() {
   const url = process.env.REACT_APP_API_URL
   console.log(url)
   useEffect(() => {
-    fetchData(`${url}/${id}`)
+    fetch(`${url}/${id}`)
+    .then(res => res.json())
     .then(data => {
       console.log(data)
       setResult(data)

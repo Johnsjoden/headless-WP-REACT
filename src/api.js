@@ -1,4 +1,4 @@
-
+/* 
 const fetchData = async (url) => {
     console.log(url)
     const response = await fetch(url)
@@ -7,4 +7,4 @@ const fetchData = async (url) => {
     console.log(result)
     return result
 }
-export {fetchData}
+export {fetchData} */
