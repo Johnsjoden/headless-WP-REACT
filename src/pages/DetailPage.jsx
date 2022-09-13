@@ -6,12 +6,13 @@ import { fetchData } from '../api'
 const parse = require("html-react-parser")
 
 export default function DetailPage() {
-  const [data, setResult] = useState([])
+  const [data, setResult] = useState({})
   const id = useParams().id
   const url = process.env.REACT_APP_API_URL
   useEffect(() => {
     fetchData(`${url}/${id}`)
     .then(data => {
+      console.log(data)
       setResult(data)
     })
   }, [])

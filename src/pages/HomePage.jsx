@@ -4,10 +4,11 @@ import { useState } from 'react'
 import {fetchData} from "../api"
 import { Link } from 'react-router-dom'
 export default function HomePage() {
-  const [result, setResult] = useState([])
+  const [result, setResult] = useState(null)
   const url = process.env.REACT_APP_API_URL
   useEffect(() => {
     fetchData(url).then(data => {
+      console.log(data)
       setResult(data.posts)
     })
   }, [])
