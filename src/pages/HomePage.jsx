@@ -5,7 +5,7 @@ import {fetchData} from "../api"
 import { Link } from 'react-router-dom'
 export default function HomePage() {
   const [result, setResult] = useState([])
-  const url = process.env.REACT_APP_NOT_SECRET_CODE
+  const url = process.env.REACT_APP_API_URL
   useEffect(() => {
     fetchData(url).then(data => {
       setResult(data.posts)

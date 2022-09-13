@@ -8,7 +8,7 @@ const parse = require("html-react-parser")
 export default function DetailPage() {
   const [data, setResult] = useState([])
   const id = useParams().id
-  const url = process.env.REACT_APP_NOT_SECRET_CODE
+  const url = process.env.REACT_APP_API_URL
   useEffect(() => {
     fetchData(`${url}/${id}`)
     .then(data => {
