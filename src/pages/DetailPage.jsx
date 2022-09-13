@@ -10,10 +10,8 @@ export default function DetailPage() {
   const id = useParams().id
   const url = process.env.REACT_APP_API_URL
   useEffect(() => {
-    fetch(`${url}/posts/${id}`)
-    .then(res => res.json())
+    fetchData(`${url}/posts/${id}`)
     .then(data => {
-      console.log(data)
       setResult(data)
     })
   }, [])
