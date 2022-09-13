@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 export default function HomePage() {
   const [result, setResult] = useState(null)
   const url = process.env.REACT_APP_API_URL
+  console.log(url)
   useEffect(() => {
     fetch(url)
     .then(res => res.json())
