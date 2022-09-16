@@ -4,14 +4,18 @@
     git clone https://github.com/Johnsjoden/headless-WP-REACT.git
 # 1.3 Run NPM install
     run NPM install in the terminal to get all the package.
-# 1.4 .env file inside
+# 1.4 Login user on wordpress or Create wordpress account
+        follow the instructions on wordpress.com how to login or create user.
+        Contact me on Johnsjoden95@gmail.com to let me give you admin to add posts.
+        or make your own website and use the API link from that.
+# 1.5 .env file inside
     add a variable inside .env 
     example
     REACT_APP_API_URL = "https://public-api.wordpress.com/rest/v1.1/sites/jsweb21.wordpress.com"
-# 1.5 To start the project local
+# 1.6 To start the project local
     run NPM start and react will start the project.
     go to Localhost:3000
-# 1.6 Deploy to Vercel
+# 1.7 Deploy to Vercel
     Open https://vercel.com and sign in with your Github account
     Add a github repository you want to deploy. 
     Add a environment variable
