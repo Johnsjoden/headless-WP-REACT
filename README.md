@@ -7,7 +7,6 @@
 # 1.4 Login user on wordpress or Create wordpress account
         follow the instructions on wordpress.com how to login or create user.
         Contact me on Johnsjoden95@gmail.com to let me give you admin to add posts.
-        or make your own website and use the API link from that.
 # 1.5 .env file inside
     add a variable inside .env 
     example
